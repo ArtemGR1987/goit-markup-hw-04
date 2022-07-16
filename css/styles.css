@@ -145,16 +145,18 @@ p {
 
 .contacts-item {
   margin-right: 50px;
+  
 }
 
 .contacts-icon {
   margin-right: 10px;
   fill: var(--primary-text-color);
   
+  
 }
 
 .contacts-icon :hover {
-  fill: #2196f3;
+  fill: currentColor;
 }
 
 
@@ -420,7 +422,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
 
-  margin-bottom: 0px;
+  margin-bottom: 16px;
   margin-top: 0px;
 }
 
@@ -428,7 +430,92 @@ p {
   list-style: none;
 }
 
+
+.social-icon {
+  fill: currentColor;
+}
+
+.links :hover,
+.links :focus {
+  color: var(--accent-color);
+  
+}
+
+
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #AFB1B8;
+  background-color: var(--main-white-color);
+  border-radius: 50%;
+}
+ 
+
+
+
+.social-links-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+
+/* Постоянные клиенты */
+.clients {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+    margin-bottom: 50px;  
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 94px;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.clients-logo {
+  fill: #AFB1B8;
+}
+
+
+
+.clients-box {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
 /* Подвал */
+
 .footer {
   background-color: var(--main-background-black-color);
   padding: 60px 0;
@@ -510,6 +597,34 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+
+
+.footer-adress-links {
+  width: 206px;
+  border: 1px solid red;
+  
+}
+
+.links-name-list {
+  display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.links-name {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+}
+
 
 /* ПОРТФОЛИО */
 
