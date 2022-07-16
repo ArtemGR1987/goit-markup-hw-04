@@ -545,7 +545,7 @@ p {
 
 .footer-link {
   list-style: none;
-
+  
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -563,6 +563,11 @@ p {
   font-style: normal;
   margin-top: 20px;
   margin-bottom: 0px;
+  display: flex;
+}
+
+.footer-adress-list {
+  margin-right: 70px;
 }
 
 .footer-adress :hover,
@@ -600,9 +605,13 @@ p {
 
 
 
+
 .footer-adress-links {
   width: 206px;
   border: 1px solid red;
+  margin-bottom: 100px;
+  margin-top: 0px;
+  
   
 }
 
@@ -612,6 +621,22 @@ p {
     align-items: center;
 }
 
+.links-name-item {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    border-radius: 50%;
+    fill: var(--main-white-color);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.links-name-item :hover,
+.links-name-item :focus {
+  background-color: #2196F3;
+}
 
 .links-name {
   font-family: 'Roboto';
@@ -623,6 +648,7 @@ p {
     text-transform: uppercase;
   
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 
