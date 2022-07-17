@@ -139,7 +139,8 @@ p {
 
 .contacts {
   margin-left: auto;
-
+  list-style: none;
+  display: flex;
   padding-inline-start: 0px;
 }
 
@@ -169,11 +170,6 @@ p {
   color: var(--accent-color);
 }
 
-.contacts {
-  list-style: none;
-  display: flex;
-}
-
 
 .mail {
   color: var(--primary-text-color);
@@ -195,7 +191,6 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 
 
 
@@ -512,6 +507,12 @@ p {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   cursor: pointer;
+}
+
+
+.clients-link :hover {
+  fill: #188ce8;
+  
 }
 
 
