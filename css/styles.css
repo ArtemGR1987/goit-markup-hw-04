@@ -194,7 +194,6 @@ p {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
- 
 }
 
 
@@ -432,13 +431,13 @@ p {
 
 
 .social-icon {
-  fill: currentColor;
+  fill: #AFB1B8;
 }
 
-.links :hover,
-.links :focus {
-  color: var(--accent-color);
-  
+
+.links :hover {
+  background-color: #188ce8;
+  fill: #ffffff;
 }
 
 
@@ -452,6 +451,8 @@ p {
   color: #AFB1B8;
   background-color: var(--main-white-color);
   border-radius: 50%;
+
+  border: 1px solid blue;
 }
  
 
@@ -712,6 +713,9 @@ p {
 
 /* Примеры работ */
 
+
+
+
 .portfolio {
   position: absolute;
   white-space: nowrap;
@@ -733,6 +737,13 @@ p {
   text-decoration: none;
   text-align: initial;
 }
+
+.projects-link :hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 
 .projects {
   list-style: none;
