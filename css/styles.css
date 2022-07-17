@@ -489,7 +489,9 @@ p {
     justify-content: center;
 }
 
-
+.clients-link :hover {
+  fill: #188ce8;
+}
 
 
 .clients-logo {
@@ -510,10 +512,6 @@ p {
 }
 
 
-.clients-link :hover {
-  fill: #188ce8;
-  
-}
 
 
 /* Подвал */
@@ -568,9 +566,7 @@ p {
   display: flex;
 }
 
-.footer-adress-list {
-  margin-right: 70px;
-}
+
 
 .footer-adress :hover,
 .footer-adress :focus {
@@ -605,16 +601,15 @@ p {
   letter-spacing: 0.03em;
 }
 
-
+.content {
+  display: flex;
+}
 
 
 .footer-adress-links {
   width: 206px;
   border: 1px solid red;
-  margin-bottom: 100px;
-  margin-top: 0px;
-  
-  
+  margin-left: 70px; 
 }
 
 .links-name-list {
