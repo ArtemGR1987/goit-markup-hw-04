@@ -608,6 +608,7 @@ p {
 
 .footer-adress-links {
   width: 206px;
+  height: 80px;
   border: 1px solid red;
   margin-left: 70px; 
 }
